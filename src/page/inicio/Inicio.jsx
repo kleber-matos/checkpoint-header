@@ -1,14 +1,15 @@
-import Header from '../../components/Header'
-import * as S from "./styled"
+/** @format */
 
+import Header from "../../components/Header";
+import * as S from "./styled";
 
 export default function Inicio() {
   return (
     <S.Main>
-      <Header/>
+      <Header />
       <section>
-        <h2>inicio</h2>
+        <h2>home</h2>
       </section>
     </S.Main>
-  )
+  );
 }
